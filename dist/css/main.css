@@ -121,7 +121,7 @@ input[class^='btn-']:hover {
       top: 0;
       left: 0;
       width: 100%;
-      height: auto;
+      height: 100%;
       line-height: 0; }
     #gallery > .gallery-item > .gallery-item-text {
       position: absolute;
@@ -305,10 +305,10 @@ a {
     background-color: #ffbc00; }
 #about > #section-three .about-logos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 2rem; }
   #about > #section-three .about-logos > img {
-    width: 70%; }
+    width: 60px; height: 60px; }
 #about > #section-four .testimonials {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -352,7 +352,7 @@ a {
   font-size: 1.2rem; }
 #contact > #section-two .contact-info {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   text-align: center; }
 #contact > #section-three h1 {
   font-size: 4rem;
@@ -457,5 +457,6 @@ a {
 @media (max-height: 330px) {
   #header #header-content h1 {
     font-size: 2rem; } }
+
 
 /*# sourceMappingURL=main.css.map */
